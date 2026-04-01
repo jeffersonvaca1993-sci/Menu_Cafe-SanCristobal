@@ -1,0 +1,8 @@
+{
+  "name": "carta-calipso",
+  "version": "1.0.0",
+  "description": "Menú digital de alto rendimiento para el Café San Cristóbal",
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
