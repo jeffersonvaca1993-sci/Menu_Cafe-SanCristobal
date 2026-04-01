@@ -18,6 +18,12 @@ const App = {
             this.config = TOML.parse(configRes);
             this.menu = TOML.parse(menuRes);
 
+            // Sincronizar idioma inicial con la configuración
+            this.currentLang = this.config.restaurant.show_english ? 'en' : 'es';
+            document.documentElement.lang = this.currentLang; // Informar al navegador
+            const switchEl = document.getElementById('lang-switch');
+            if (switchEl) switchEl.checked = this.currentLang === 'en';
+
             this.applyBranding();
             this.renderAll();
         } catch (error) {
@@ -36,6 +42,7 @@ const App = {
     toggleLanguage() {
         const isChecked = document.getElementById('lang-switch').checked;
         this.currentLang = isChecked ? 'en' : 'es';
+        document.documentElement.lang = this.currentLang; // Actualizar idioma para el navegador
         this.renderAll(); 
     },
 
@@ -49,8 +56,10 @@ const App = {
         const nav = document.getElementById('categories-nav');
         if (!this.menu.categories) return;
 
+        const showEn = this.currentLang === 'en';
+
         nav.innerHTML = this.menu.categories.map((cat, i) => {
-            const catName = this.currentLang === 'es' ? cat.name_es : (cat.name_en || cat.name_es);
+            const catName = (showEn && cat.name_en) ? cat.name_en : cat.name_es;
             return `
                 <div class="tab-item ${i === 0 ? 'active' : ''}" 
                      id="tab-${i}"
@@ -65,10 +74,12 @@ const App = {
         const container = document.getElementById('menu-container');
         if (!this.menu.categories) return;
 
+        const showEn = this.currentLang === 'en';
+
         // Mapeamos todas las categorías y las unimos en un solo HTML
         container.innerHTML = this.menu.categories.map((category, i) => {
             const productos = category.products || [];
-            const catName = this.currentLang === 'es' ? category.name_es : (category.name_en || category.name_es);
+            const catName = (showEn && category.name_en) ? category.name_en : category.name_es;
 
             // Le agregamos un ID único a cada sección (ej. id="category-0")
             let html = `
@@ -84,18 +95,23 @@ const App = {
     },
 
     assembleProduct(product) {
+        const showEn = this.currentLang === 'en';
         const types = product.types || [];
         const typeCount = types.length;
 
-        const name = this.currentLang === 'es' ? product.name_es : (product.name_en || product.name_es);
-        const desc = this.currentLang === 'es' ? product.description_es : (product.description_en || product.description_es);
+        // LÓGICA DE FALLBACK: 
+        // Si showEn es true y existe name_en, lo usa. De lo contrario, usa name_es.
+        const displayName = (showEn && product.name_en) ? product.name_en : product.name_es;
+        
+        // Lo mismo para la descripción
+        const displayDesc = (showEn && product.description_en) ? product.description_en : product.description_es;
 
         let html = `
             <div class="product-card">
                 <div class="product-header">
-                    <span class="product-name">${name}</span>
+                    <span class="product-name">${displayName}</span>
                 </div>
-                ${desc ? `<p class="product-desc">${desc}</p>` : ''}
+                ${displayDesc ? `<p class="product-desc">${displayDesc}</p>` : ''}
         `;
 
         if (typeCount === 1) {

@@ -1,42 +1,992 @@
-# --- CATEGORÍAS ---
-
+###############################################################################
+# CATEGORÍA: PLATOS A LA CARTA
+###############################################################################
 [[categories]]
-name_es = "Platos Fuertes"
+name_es = "Platos a la Carta"
 name_en = "Main Courses"
+
+  [[categories.products]]
+  name_es = "Milanesa de Pollo"
+  name_en = "Chicken Milanese"
+  description_es = "Con queso, acompañada de papas fritas, ensalada coleslaw y arroz."
+  description_en = "With cheese accompanied with french fries, coleslaw salad and rice."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 17.65
+
+  [[categories.products]]
+  name_es = "Lomo a la Pimienta"
+  name_en = "Pepper Beef Steak"
+  description_es = "Con papas fritas y vegetales salteados."
+  description_en = "With french fries and sauteed vegetables."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 21.00
+
+  [[categories.products]]
+  name_es = "Lomo al Grill"
+  name_en = "Grilled Beef Steak"
+  description_es = "Con papas fritas, vegetales salteados y arroz."
+  description_en = "With french fries, sauteed vegetables and rice."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 21.15
+
+  [[categories.products]]
+  name_es = "Pechuga de Pollo al Grill"
+  name_en = "Grilled Chicken Breast"
+  description_es = "Con papas fritas, vegetales salteados y arroz."
+  description_en = "With French fries, sauteed vegetables and rice."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 16.95
 
   [[categories.products]]
   name_es = "Pescado al Grill"
   name_en = "Grilled Fish"
-  description_es = "Con patacones, vegetales salteados y arroz"
-  description_en = "With fried plantains, sautéed vegetables and rice"
-  
+  description_es = "Con patacones, vegetales salteados y arroz."
+  description_en = "Green banana, sauteed vegetables and rice."
     [[categories.products.types]]
     name = "Plato"
     price = 16.60
 
+  [[categories.products]]
+  name_es = "Camarones Apanados"
+  name_en = "Breaded Shrimps"
+  description_es = "Con papas fritas, ensalada coleslaw y arroz."
+  description_en = "With french fries, coleslaw salad and rice."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 20.60
+
+###############################################################################
+# CATEGORÍA: LASAÑAS
+###############################################################################
+[[categories]]
+name_es = "Lasañas"
+name_en = "Lasagnas"
+
+  [[categories.products]]
+  name_es = "Lasaña de Carne"
+  name_en = "Meat Lasagna"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 19.90
+
+  [[categories.products]]
+  name_es = "Lasaña de Mariscos"
+  name_en = "Sea Food Lasagna"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 23.35
+
+  [[categories.products]]
+  name_es = "Lasaña de Pollo"
+  name_en = "Chicken Lasagna"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 17.05
+
+###############################################################################
+# CATEGORÍA: PASTAS
+###############################################################################
+[[categories]]
+name_es = "Pastas"
+name_en = "Pastas"
+
+  [[categories.products]]
+  name_es = "Pasta Boloñesa"
+  name_en = "Pasta Bolognese"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 20.35
+
+  [[categories.products]]
+  name_es = "Pasta Carbonara"
+  name_en = "Pasta Carbonara"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 17.75
+
+  [[categories.products]]
+  name_es = "Pasta Miramar con Mariscos"
+  name_en = "Seafood Miramar Pasta"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 23.55
+
+###############################################################################
+# CATEGORÍA: CREPES
+###############################################################################
+[[categories]]
+name_es = "Crepes"
+name_en = "Crepes"
+
+  [[categories.products]]
+  name_es = "Crepe de Camarones al Ajillo"
+  name_en = "Garlic Shrimps Crepe"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 15.25
+
+  [[categories.products]]
+  name_es = "Crepe de Pollo con Champiñones"
+  name_en = "Chicken Crepe with Mushrooms"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 14.65
+
+  [[categories.products]]
+  name_es = "Crepe de Lomo a la Pimienta"
+  name_en = "Pepper Steak Crepe"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 15.25
+
+###############################################################################
+# CATEGORÍA: PIZZAS
+###############################################################################
 [[categories]]
 name_es = "Pizzas"
 name_en = "Pizzas"
 
   [[categories.products]]
-  name_es = "Calypso"
-  name_en = "Calypso"
-  description_es = "Jamón, salami, vegetales"
-  description_en = "Ham, salami, vegetables"
-  
+  name_es = "CALYPSO"
+  name_en = "CALYPSO"
+  description_es = "Ingredientes: Jamón, salami, cebolla, pimiento, champiñones y aceitunas."
+  description_en = "Ingredients: Ham, salami, onions, green pepper, mushrooms, and olives"
     [[categories.products.types]]
-    name = "PEQ"
+    name = "pequeño"
     price = 18.75
-
     [[categories.products.types]]
-    name = "MED"
+    name = "mediana"
     price = 27.15
-
     [[categories.products.types]]
-    name = "FAM"
+    name = "familiar"
     price = 39.50
-
     [[categories.products.types]]
-    name = "GIG"
+    name = "gigante"
     price = 47.15
 
+  [[categories.products]]
+  name_es = "SAN CRISTOBAL"
+  name_en = "SAN CRISTOBAL"
+  description_es = "Ingredientes: Tocino y champiñones."
+  description_en = "Ingredients: Bacon and mushrooms"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 16.10
+    [[categories.products.types]]
+    name = "mediana"
+    price = 23.70
+    [[categories.products.types]]
+    name = "familiar"
+    price = 35.00
+    [[categories.products.types]]
+    name = "gigante"
+    price = 39.00
+
+  [[categories.products]]
+  name_es = "MARISCOS"
+  name_en = "SEAFOOD"
+  description_es = "Ingredientes: Camarón, pulpo y calamar."
+  description_en = "Ingredients: Shrimp, octopus, and squid"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 25.00
+    [[categories.products.types]]
+    name = "mediana"
+    price = 37.70
+    [[categories.products.types]]
+    name = "familiar"
+    price = 42.95
+    [[categories.products.types]]
+    name = "gigante"
+    price = 52.90
+
+  [[categories.products]]
+  name_es = "SUPREMA DE CARNE"
+  name_en = "MEAT SUPREME"
+  description_es = "Ingredientes: Carne, chorizo, tocino."
+  description_en = "Ingredients: Meat, bacon, sausage"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 19.50
+    [[categories.products.types]]
+    name = "mediana"
+    price = 33.20
+    [[categories.products.types]]
+    name = "familiar"
+    price = 45.10
+    [[categories.products.types]]
+    name = "gigante"
+    price = 50.55
+
+  [[categories.products]]
+  name_es = "CUATRO QUESOS"
+  name_en = "FOUR CHEESES"
+  description_es = "Ingredientes: Mozzarella, cheddar, holandés y parmesano."
+  description_en = "Ingredients: Mozzarella, cheddar, dutch chesse and parmessan"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 15.35
+    [[categories.products.types]]
+    name = "mediana"
+    price = 24.95
+    [[categories.products.types]]
+    name = "familiar"
+    price = 32.35
+    [[categories.products.types]]
+    name = "gigante"
+    price = 41.20
+
+  [[categories.products]]
+  name_es = "HAWAIANA"
+  name_en = "HAWAIIAN"
+  description_es = "Ingredientes: Piña y jamón."
+  description_en = "Ingredients: Pineapple and ham"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 15.35
+    [[categories.products.types]]
+    name = "mediana"
+    price = 24.95
+    [[categories.products.types]]
+    name = "familiar"
+    price = 34.60
+    [[categories.products.types]]
+    name = "gigante"
+    price = 40.90
+
+  [[categories.products]]
+  name_es = "AMERICANA"
+  name_en = "AMERICAN"
+  description_es = "Ingredientes: Pepperoni, jamón y pimiento."
+  description_en = "Ingredients: Pepperoni, ham and green pepper"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 15.35
+    [[categories.products.types]]
+    name = "mediana"
+    price = 25.10
+    [[categories.products.types]]
+    name = "familiar"
+    price = 33.65
+    [[categories.products.types]]
+    name = "gigante"
+    price = 40.15
+
+  [[categories.products]]
+  name_es = "VEGETARIANA"
+  name_en = "VEGETARIAN"
+  description_es = "Ingredientes: Cebolla, pimiento, tomate, champiñones y aceitunas."
+  description_en = "Ingredients: Onions, green pepper, tomato, mushrooms, and olives."
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 12.25
+    [[categories.products.types]]
+    name = "mediana"
+    price = 20.00
+    [[categories.products.types]]
+    name = "familiar"
+    price = 31.30
+    [[categories.products.types]]
+    name = "gigante"
+    price = 34.40
+
+  [[categories.products]]
+  name_es = "MARGARITA"
+  name_en = "MARGARITA"
+  description_es = "Ingredientes: Tomate y albahaca."
+  description_en = "Ingredients: Tomato and basil"
+    [[categories.products.types]]
+    name = "pequeño"
+    price = 15.35
+    [[categories.products.types]]
+    name = "mediana"
+    price = 23.75
+    [[categories.products.types]]
+    name = "familiar"
+    price = 35.05
+    [[categories.products.types]]
+    name = "gigante"
+    price = 40.10
+
+###############################################################################
+# CATEGORÍA: HAMBURGUESAS
+###############################################################################
+[[categories]]
+name_es = "Hamburguesas"
+name_en = "Hamburgers"
+
+  [[categories.products]]
+  name_es = "San Cristóbal"
+  name_en = "San Cristobal"
+  description_es = "Con tocino, queso y huevo."
+  description_en = "Bacon, cheese and egg."
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 13.00
+
+  [[categories.products]]
+  name_es = "Con Queso"
+  name_en = "With Cheese"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 11.30
+
+  [[categories.products]]
+  name_es = "Simple"
+  name_en = "Simple"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 10.60
+
+  [[categories.products]]
+  name_es = "Al Grill"
+  name_en = "Grilled Burger"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 10.85
+
+###############################################################################
+# CATEGORÍA: SÁNDUCHES
+###############################################################################
+[[categories]]
+name_es = "Sánduches"
+name_en = "Sandwiches"
+
+  [[categories.products]]
+  name_es = "Cubano"
+  name_en = "Cuban"
+  description_es = "Pollo, jamón, salami y queso."
+  description_en = "Chicken, ham, salami, cheese."
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 14.95
+
+  [[categories.products]]
+  name_es = "San Cristóbal"
+  name_en = "San Cristobal"
+  description_es = "Con jamón de pavo y queso holandés."
+  description_en = "Turkey ham and Dutch cheese."
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 12.05
+
+  [[categories.products]]
+  name_es = "San Cristóbal con Tocino"
+  name_en = "San Cristobal With Bacon"
+  description_es = "Con jamón de pavo, queso holandés y tocino."
+  description_en = "Turkey ham, dutch cheese and bacon."
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 14.10
+
+  [[categories.products]]
+  name_es = "Tradicional"
+  name_en = "Traditional"
+  description_es = "Jamón, queso holandés, lechuga, tomate y salsa de la casa."
+  description_en = "Ham, dutch cheese, lettuce, tomato, and homemade mayonnaise."
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 12.30
+
+  [[categories.products]]
+  name_es = "Jamón y Queso Caliente"
+  name_en = "Ham and Cheese"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 8.50
+
+###############################################################################
+# CATEGORÍA: PICADAS
+###############################################################################
+[[categories]]
+name_es = "Picadas"
+name_en = "Finger Foods"
+
+  [[categories.products]]
+  name_es = "Alitas BBQ (6 unidades)"
+  name_en = "BBQ Wings (6 units)"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 11.00
+
+  [[categories.products]]
+  name_es = "Alitas BBQ (12 unidades)"
+  name_en = "BBQ Wings (12 units)"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 20.00
+
+  [[categories.products]]
+  name_es = "Nuggets de Pollo (6 unidades)"
+  name_en = "Chicken Nuggets (6 units)"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 10.00
+
+  [[categories.products]]
+  name_es = "Nuggets de Pollo (12 unidades)"
+  name_en = "Chicken Nuggets (12 units)"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 18.50
+
+  [[categories.products]]
+  name_es = "Salchipapas"
+  name_en = "Salchipapas"
+  description_es = "Papas fritas con salchicha."
+  description_en = "French fries with sausage."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 7.90
+
+  [[categories.products]]
+  name_es = "Porción de Papas Fritas"
+  name_en = "French Fries Portion"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 6.50
+
+###############################################################################
+# CATEGORÍA: ENSALADAS
+###############################################################################
+[[categories]]
+name_es = "Ensaladas"
+name_en = "Salads"
+
+  [[categories.products]]
+  name_es = "César"
+  name_en = "Caesar"
+  description_es = "Con pollo, lechuga crespa, aderezo César, queso parmesano y crutones."
+  description_en = "With chicken, curly lettuce, Caesar dressing, parmesan cheese and croutons."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 12.35
+
+  [[categories.products]]
+  name_es = "De la Casa"
+  name_en = "House Salad"
+  description_es = "Mix de lechugas, tomate cherry, pepinillo, zanahoria y aderezo de la casa."
+  description_en = "Mixed greens, cherry tomatoes, cucumber, carrots and house dressing."
+    [[categories.products.types]]
+    name = "Plato"
+    price = 10.00
+
+  [[categories.products]]
+  name_es = "Pequeña"
+  name_en = "Small Salad"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 6.00
+
+###############################################################################
+# CATEGORÍA: CAFÉ FILTRADO
+###############################################################################
+[[categories]]
+name_es = "Café Filtrado"
+name_en = "Filtered Coffee"
+
+  [[categories.products]]
+  name_es = "Café Filtrado"
+  name_en = "Filtered Coffee"
+    [[categories.products.types]]
+    name = "Syphon"
+    price = 4.30
+    [[categories.products.types]]
+    name = "Chemex"
+    price = 5.15
+    [[categories.products.types]]
+    name = "Dripper V60N"
+    price = 3.90
+    [[categories.products.types]]
+    name = "Aeropress"
+    price = 4.10
+    [[categories.products.types]]
+    name = "Prensa Francesa"
+    price = 3.35
+
+###############################################################################
+# CATEGORÍA: TÉ CALIENTE Y FRÍO
+###############################################################################
+[[categories]]
+name_es = "Té Caliente y Frío"
+name_en = "Tea"
+
+  [[categories.products]]
+  name_es = "Té"
+  name_en = "Tea"
+    [[categories.products.types]]
+    name = "Té Caliente (Sandia/Berry Berry Frutal/Orange Cocoa)"
+    price = 3.80
+    [[categories.products.types]]
+    name = "Té Frío (Sandia/Berry Berry Frutal/Orange Cocoa)"
+    price = 4.90
+    [[categories.products.types]]
+    name = "Té Aromático (Manzanilla/Cedrón/Té negro/Hierva Luisa)"
+    price = 3.40
+    [[categories.products.types]]
+    name = "Té Aromático de la Casa con frutas frescas"
+    price = 4.60
+
+###############################################################################
+# CATEGORÍA: CAFÉ
+###############################################################################
+[[categories]]
+name_es = "Café"
+name_en = "Coffee"
+
+  [[categories.products]]
+  name_es = "Café Americano"
+  name_en = "Americano Coffee"
+    [[categories.products.types]]
+    name = "Sencillo"
+    price = 3.40
+    [[categories.products.types]]
+    name = "Doble"
+    price = 4.35
+
+  [[categories.products]]
+  name_es = "Café Latte"
+  name_en = "Latte Coffee"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.35
+
+  [[categories.products]]
+  name_es = "Espresso"
+  name_en = "Espresso"
+    [[categories.products.types]]
+    name = "Sencillo"
+    price = 3.40
+    [[categories.products.types]]
+    name = "Doble"
+    price = 4.35
+
+  [[categories.products]]
+  name_es = "Cappuccino"
+  name_en = "Cappuccino"
+    [[categories.products.types]]
+    name = "Sencillo"
+    price = 4.35
+    [[categories.products.types]]
+    name = "Doble"
+    price = 5.45
+
+  [[categories.products]]
+  name_es = "Cappuccino Frozen/Frio"
+  name_en = "Frozen/Cold Cappuccino"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.90
+
+  [[categories.products]]
+  name_es = "Cappuccino / Chocolate leche de almendras/soya"
+  name_en = "Cappuccino / Chocolate with almond/soy milk"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 5.00
+
+  [[categories.products]]
+  name_es = "Mokaccino"
+  name_en = "Mokaccino"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.95
+
+  [[categories.products]]
+  name_es = "Mokaccino Frozen/Frio"
+  name_en = "Frozen/Cold Mokaccino"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 5.20
+
+  [[categories.products]]
+  name_es = "Chocolate Caliente"
+  name_en = "Hot Chocolate"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.55
+
+  [[categories.products]]
+  name_es = "Flat White"
+  name_en = "Flat White"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.25
+
+  [[categories.products]]
+  name_es = "Affogato"
+  name_en = "Affogato"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 4.55
+
+  [[categories.products]]
+  name_es = "Macchiato"
+  name_en = "Macchiato"
+    [[categories.products.types]]
+    name = "Taza"
+    price = 3.40
+
+###############################################################################
+# CATEGORÍA: SODAS
+###############################################################################
+[[categories]]
+name_es = "Sodas"
+name_en = "Sodas"
+
+  [[categories.products]]
+  name_es = "Soda de Maracuyá con Mango"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 5.85
+
+  [[categories.products]]
+  name_es = "Soda de Frutos del Bosque"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 5.85
+
+  [[categories.products]]
+  name_es = "Soda de Naranjilla con Jengibre"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 5.85
+
+###############################################################################
+# CATEGORÍA: BEBIDAS FRÍAS
+###############################################################################
+[[categories]]
+name_es = "Bebidas Frías"
+name_en = "Cold Drinks"
+
+  [[categories.products]]
+  name_es = "Milkshake"
+  name_en = "Milkshake"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 7.85
+
+  [[categories.products]]
+  name_es = "Limonada"
+  name_en = "Lemonade"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 4.00
+
+  [[categories.products]]
+  name_es = "Agua Mineral"
+  name_en = "Mineral Water"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 2.95
+
+  [[categories.products]]
+  name_es = "Batido de Frutas"
+  name_en = "Fruit Shake"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 5.45
+
+  [[categories.products]]
+  name_es = "Té Helado"
+  name_en = "Iced Tea"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 3.95
+
+  [[categories.products]]
+  name_es = "Agua sin Gas"
+  name_en = "Water"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 2.30
+
+  [[categories.products]]
+  name_es = "Jugos de Fruta"
+  name_en = "Fruit Juice"
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 4.90
+
+  [[categories.products]]
+  name_es = "Gaseosa Pequeña"
+  name_en = "Small Soda"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 2.95
+
+  [[categories.products]]
+  name_es = "Gatorade"
+  name_en = "Gatorade"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 3.50
+
+  [[categories.products]]
+  name_es = "Jarra de Jugo de Frutas"
+  name_en = "Fruit Juice Pitcher"
+    [[categories.products.types]]
+    name = "Jarra"
+    price = 12.20
+
+  [[categories.products]]
+  name_es = "Gaseosa de 2lt"
+  name_en = "Big Soda 2lt"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 6.65
+
+###############################################################################
+# CATEGORÍA: CERVEZAS
+###############################################################################
+[[categories]]
+name_es = "Cervezas"
+name_en = "Beers"
+
+  [[categories.products]]
+  name_es = "Pilsener"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 7.55
+
+  [[categories.products]]
+  name_es = "Club"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 7.75
+
+  [[categories.products]]
+  name_es = "Endmeica"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 6.60
+
+###############################################################################
+# CATEGORÍA: HELADOS
+###############################################################################
+[[categories]]
+name_es = "Helados"
+name_en = "Ice Creams"
+
+  [[categories.products]]
+  name_es = "Copa Tentacion"
+  name_en = "Tentacion Cup"
+  description_es = "helado de café, avellanas y vainilla ."
+  description_en = "Ice cream coffe, chocolate, hazelnut and vanilla"
+    [[categories.products.types]]
+    name = "Copa"
+    price = 7.95
+
+  [[categories.products]]
+  name_es = "Copa Brownnie"
+  name_en = "Brownie Cup"
+  description_es = "helado de chocolate, vainilla con trozos de brownnie."
+  description_en = "Ice Cream chocolate with vanilla and pieces of brownie"
+    [[categories.products.types]]
+    name = "Copa"
+    price = 7.90
+
+  [[categories.products]]
+  name_es = "Waffle con Helado"
+  name_en = "Waffle with Ice Cream"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 7.55
+
+  [[categories.products]]
+  name_es = "Copa Manjar"
+  name_en = "Manjar Cup"
+  description_es = "helado de manjar con pedazos de banana y crema chantilly."
+  description_en = "Milk Candy ice cream with banana pieces and cream"
+    [[categories.products.types]]
+    name = "Copa"
+    price = 5.00
+
+  [[categories.products]]
+  name_es = "Cono Waffle"
+  name_en = "Bubble Waffle"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 6.20
+
+  [[categories.products]]
+  name_es = "Cono Doble"
+  name_en = "Double Cone"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 5.75
+
+  [[categories.products]]
+  name_es = "Cono Simple"
+  name_en = "Simple Cone"
+    [[categories.products.types]]
+    name = "Unidad"
+    price = 3.00
+
+###############################################################################
+# CATEGORÍA: POSTRES
+###############################################################################
+[[categories]]
+name_es = "Postres"
+name_en = "Desserts"
+
+  [[categories.products]]
+  name_es = "Crepe de Nutella con Helado"
+  name_en = "Nutella Crepe with Ice Cream"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 12.25
+
+  [[categories.products]]
+  name_es = "Volcán de Chocolate"
+  name_en = "Lava Cake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 9.15
+
+  [[categories.products]]
+  name_es = "Brownnie con Helado"
+  name_en = "Brownie with Ice Cream"
+    [[categories.products.types]]
+    name = "Plato"
+    price = 7.55
+
+  [[categories.products]]
+  name_es = "Tarta Vasca (Manjar / Chocolate)"
+  name_en = "Basque Tart (Milk Candy / Chocolate)"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.55
+
+  [[categories.products]]
+  name_es = "Torta Selva Negra"
+  name_en = "Black Forest Cake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.20
+
+  [[categories.products]]
+  name_es = "Tiramisu"
+  name_en = "Tiramisu"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.45
+
+  [[categories.products]]
+  name_es = "Torta Nube"
+  name_en = "Cloud Cake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 4.80
+
+  [[categories.products]]
+  name_es = "Pastel de Chocolate"
+  name_en = "Chocolate Cake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.15
+
+  [[categories.products]]
+  name_es = "Torta de Tres Leches"
+  name_en = "Tres Leches Cake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.15
+
+  [[categories.products]]
+  name_es = "Cheescake de Maracuyá / Frutos Rojos / Oreo"
+  name_en = "Passion Fruit / Red Fruits / Oreo Cheescake"
+    [[categories.products.types]]
+    name = "Porción"
+    price = 5.55
+
+###############################################################################
+# CATEGORÍA: CÓCTELES
+###############################################################################
+[[categories]]
+name_es = "Cócteles"
+name_en = "Cocktails"
+
+  [[categories.products]]
+  name_es = "Michelada"
+  name_en = "Michelada"
+  description_es = "Cerveza, limón y sal."
+  description_en = "Beer, lemon and salt."
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 8.45
+
+  [[categories.products]]
+  name_es = "Cuba Libre"
+  name_en = "Cuba Libre"
+  description_es = "Ron, coca cola, hielo y limón."
+  description_en = "Rum, Coca cola, lemon and ice."
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 8.50
+
+  [[categories.products]]
+  name_es = "Margarita"
+  name_en = "Margarita"
+  description_es = "Tequila, limón, azúcar y hielo."
+  description_en = "Tequila, lemon, sugar and ice."
+    [[categories.products.types]]
+    name = "Copa"
+    price = 10.20
+
+  [[categories.products]]
+  name_es = "Mojito"
+  name_en = "Mojito"
+  description_es = "Ron, sprite, azúcar, hierba buena, limon y hielo."
+  description_en = "Rum, Sprite, sugar, lemon and peppermint."
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 9.45
+
+  [[categories.products]]
+  name_es = "Caipirinha"
+  name_en = "Caipirinha"
+  description_es = "Caña Manaba, limón, azúcar y hielo."
+  description_en = "Caña Manaba, lemon, sugar and ice."
+    [[categories.products.types]]
+    name = "Vaso"
+    price = 8.65
+
+###############################################################################
+# CATEGORÍA: VINOS
+###############################################################################
+[[categories]]
+name_es = "Vinos (Reservado Concha y Toro)"
+name_en = "Wines (Reservado Concha y Toro)"
+
+  [[categories.products]]
+  name_es = "Cabernet Sauvignon"
+  name_en = "Cabernet Sauvignon"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 19.10
+
+  [[categories.products]]
+  name_es = "Sauvignon Blanco"
+  name_en = "Sauvignon Blanc"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 19.10
+
+  [[categories.products]]
+  name_es = "Merlot"
+  name_en = "Merlot"
+    [[categories.products.types]]
+    name = "Botella"
+    price = 19.10
+
+  [[categories.products]]
+  name_es = "Copa de Vino"
+  name_en = "Glass of Wine"
+    [[categories.products.types]]
+    name = "Copa"
+    price = 4.40

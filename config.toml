@@ -1,7 +1,7 @@
 [restaurant]
 name = "Café San Cristóbal"
 currency = "$"
-show_english = true
+show_english = false
 
 [colors]
 primary = "#311A0B"    # Marrón Chocolate (Letras y Logo)
