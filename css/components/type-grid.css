@@ -1,0 +1,26 @@
+.type-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.grid-box {
+    border: 1px solid var(--accent);
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.grid-label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    opacity: 0.7;
+}
+
+.grid-price {
+    font-weight: bold;
+    font-size: 1rem;
+}

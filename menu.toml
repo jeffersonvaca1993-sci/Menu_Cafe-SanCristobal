@@ -1,0 +1,42 @@
+# --- CATEGORÍAS ---
+
+[[categories]]
+name_es = "Platos Fuertes"
+name_en = "Main Courses"
+
+  [[categories.products]]
+  name_es = "Pescado al Grill"
+  name_en = "Grilled Fish"
+  description_es = "Con patacones, vegetales salteados y arroz"
+  description_en = "With fried plantains, sautéed vegetables and rice"
+  
+    [[categories.products.types]]
+    name = "Plato"
+    price = 16.60
+
+[[categories]]
+name_es = "Pizzas"
+name_en = "Pizzas"
+
+  [[categories.products]]
+  name_es = "Calypso"
+  name_en = "Calypso"
+  description_es = "Jamón, salami, vegetales"
+  description_en = "Ham, salami, vegetables"
+  
+    [[categories.products.types]]
+    name = "PEQ"
+    price = 18.75
+
+    [[categories.products.types]]
+    name = "MED"
+    price = 27.15
+
+    [[categories.products.types]]
+    name = "FAM"
+    price = 39.50
+
+    [[categories.products.types]]
+    name = "GIG"
+    price = 47.15
+

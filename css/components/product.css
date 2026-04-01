@@ -1,0 +1,31 @@
+.product-card {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--accent);
+    animation: fadeIn 0.5s ease;
+}
+
+.product-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.product-en {
+    display: block;
+    font-style: italic;
+    color: var(--text-en);
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
+
+.product-desc {
+    font-size: 0.9rem;
+    margin: 8px 0;
+    line-height: 1.3;
+    opacity: 0.9;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}

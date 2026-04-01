@@ -1,0 +1,18 @@
+.type-simple {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--primary);
+    margin: 0 10px;
+    opacity: 0.3;
+}
+
+.price-single {
+    font-weight: bold;
+    font-size: 1.1rem;
+}

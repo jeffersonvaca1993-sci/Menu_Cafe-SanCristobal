@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* Estas variables se sincronizarán con config.toml mediante JS más adelante */
+    --primary: #311A0B;
+    --bg: #FAF4EA;
+    --accent: #E1D8CC;
+    --text-en: #8c7e74;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--primary);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}

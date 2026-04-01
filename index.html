@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargando Menú...</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components/category.css">
+    <link rel="stylesheet" href="css/components/product.css">
+    <link rel="stylesheet" href="css/components/type-simple.css">
+    <link rel="stylesheet" href="css/components/type-pills.css">
+    <link rel="stylesheet" href="css/components/type-grid.css">
+</head>
+<body>
+
+    <header>
+        <div class="lang-toggle-container">
+            <span class="lang-label">ES</span>
+            <label class="switch">
+                <input type="checkbox" id="lang-switch" onchange="App.toggleLanguage()">
+                <span class="slider round"></span>
+            </label>
+            <span class="lang-label">EN</span>
+        </div>
+
+        <img src="logo.png" alt="Logo" class="logo" id="restaurante-logo">
+        <h1 id="restaurante-nombre">Restaurante</h1>
+    </header>
+
+    <nav class="category-nav" id="categories-nav">
+        <!-- Navegación dinámica aquí -->
+    </nav>
+
+    <main class="container" id="menu-container">
+        <!-- Contenido dinámico aquí -->
+    </main>
+
+    <script src="js/toml-parser.js"></script>
+    <script src="js/engine.js"></script>
+
+</body>
+</html>

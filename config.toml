@@ -1,0 +1,9 @@
+[restaurant]
+name = "Café San Cristóbal"
+currency = "$"
+show_english = true
+
+[colors]
+primary = "#311A0B"    # Marrón Chocolate (Letras y Logo)
+background = "#FAF4EA" # Fondo Crema
+accent = "#E1D8CC"     # Marca de Agua y Bordes
